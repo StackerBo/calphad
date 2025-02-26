@@ -1,0 +1,22 @@
+{
+    "systems": [
+      {
+        "name": "NiBase_Variation",
+        "database": "TCNI10",
+        "elements": ["Ni", "Al", "Cr"],
+        "composition_range": {
+          "Al": [0.08, 0.12, 0.02],
+          "Cr": [0.02, 0.06, 0.02]
+        },
+        "properties": [
+          {
+            "type": "equilibrium",
+            "mode": "batch",
+            "parameters": {
+              "temperature": 1600
+            }
+          }
+        ]
+      }
+    ]
+  }
